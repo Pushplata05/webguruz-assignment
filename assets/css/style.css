@@ -161,6 +161,17 @@ h3 {
     font-family: var(--font-primary);
 
 }
+.btn-shop-banner{
+    font-size: 1rem;
+    height: auto;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    color: currentColor;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+}
 
 .btn-shop {
     font-size: 1rem;
