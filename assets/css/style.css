@@ -167,10 +167,14 @@ h3 {
     padding: 0;
     background-color: transparent;
     border: 0;
-    color: currentColor;
+    color: #524b4b;
     text-decoration: none;
     font-weight: 500;
     cursor: pointer;
+}
+.btn-shop-banner:hover{
+  
+    color: #524b4b;
 }
 
 .btn-shop {
