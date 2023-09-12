@@ -597,7 +597,7 @@ i.fa-bag-shopping:hover, .fa-rotate:hover, .fa-compress:hover, i:hover{
     }
 
     .hero{
-        background-image: url("../images/banner-box2.jpg"); /* The image used */
+        background-image: url("https://raw.githubusercontent.com/Pushplata05/ecommerce/main/assets/images/banner-box2.jpg"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 500px; /* You must set a specified height */
   background-position: center; /* Center the image */
