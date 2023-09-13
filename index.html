@@ -41,10 +41,11 @@
                 aria-expanded="false">
                 English
               </span>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                <li><button class="dropdown-item" type="button">Action</button></li>
-                <li><button class="dropdown-item" type="button">Another action</button></li>
-                <li><button class="dropdown-item" type="button">Something else here</button></li>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Hindi</a></li>
+                <li><a class="dropdown-item" href="#">Europe</a></li>
+               
+              
               </ul>
             </div>
           </div>
@@ -1127,21 +1128,21 @@
 
 
     });
-    $(".dropdown-toggle").mouseenter(function () {
+    // $(".dropdown-toggle").mouseenter(function () {
 
-      $(this).siblings(".dropdown-menu").addClass("show");
-    });
-
-    //     $(".dropdown-toggle").click(function(){
-    //   $(".dropdown-menu").hide();
+    //   $(this).siblings(".dropdown-menu").addClass("show");
     // });
 
-    // $(".dropdown-toggle").click(function(){
-    //   $("dropdown-menu").show();
+    // //     $(".dropdown-toggle").click(function(){
+    // //   $(".dropdown-menu").hide();
+    // // });
+
+    // // $(".dropdown-toggle").click(function(){
+    // //   $("dropdown-menu").show();
+    // // });
+    // $(".dropdown-toggle").mouseleave(function () {
+    //   $(this).siblings(".dropdown-menu").removeClass("show");
     // });
-    $(".dropdown-toggle").mouseleave(function () {
-      $(this).siblings(".dropdown-menu").removeClass("show");
-    });
   </script>
   <script>
     $('.owl-carousel').owlCarousel({
