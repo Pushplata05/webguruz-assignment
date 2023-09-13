@@ -291,6 +291,7 @@ h3 {
    }
     .image_item {
         text-align: center;
+        /* transition: transform 250ms; */
        
    }
    .icons {
@@ -301,12 +302,14 @@ h3 {
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
     will-change: opacity,transform;
+    transition: transform 320ms;
 }
 
 .image_item:hover .icons {
     opacity: 1;
     -webkit-transform: translateX(0);
-    transform: translateX(0);
+
+    transform: translateY(-2px);
 }
    .image_item i {
     position: absolute;
