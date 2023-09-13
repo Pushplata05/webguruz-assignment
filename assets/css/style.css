@@ -516,7 +516,6 @@ i.fa-bag-shopping:hover, .fa-rotate:hover, .fa-compress:hover, i:hover{
     transition: 0.3s ease-in-out;
 }
  .icon-arrow{
-
         transform: rotate(90deg);
         line-height: 60px;
         /* display: flex; */
@@ -567,7 +566,7 @@ i.fa-bag-shopping:hover, .fa-rotate:hover, .fa-compress:hover, i:hover{
     overflow: hidden;
 }
 .logo-swipper .slider {
-    animation: slidein 30s linear infinite;
+    animation: slidein 50s linear infinite;
     white-space: nowrap;
 }
 .logo-swipper .slider .logos {
