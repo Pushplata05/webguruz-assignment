@@ -875,6 +875,15 @@ i.fa-bag-shopping:hover, .fa-rotate:hover, .fa-compress:hover, i:hover{
             font-size: 1.5rem;
             font-weight: 500;
         }
+        .hero{
+            background-image: url("https://raw.githubusercontent.com/Pushplata05/ecommerce/main/assets/images/banner-box2.jpg"); /* The image used */
+      background-color: #cccccc; /* Used if the image is unavailable */
+      height: auto; /* You must set a specified height */
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+      width: 100%;
+        }
 
         .hero .banner-title {
             font-size: 2rem;
