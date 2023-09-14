@@ -722,6 +722,31 @@ i.fa-bag-shopping:hover, .fa-rotate:hover, .fa-compress:hover, i:hover{
         font-size: 1.375rem;
     margin-bottom: 0.625rem;
     }
+    .card-info img {
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -ms-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+    }
+
+    .card-info{
+       
+            /* height: auto; */
+            /* width: 356px; */
+            position: relative;
+            overflow: hidden;
+            width: auto;
+            max-width: 100%;
+            /* border-radius: 20px; */
+        
+    }
+    .card-info:hover img {
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        cursor: pointer;
+    }
 .footer-dark{
     color: #fff;
     background-color: #000;
