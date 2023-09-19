@@ -1265,6 +1265,14 @@ i.fa-bag-shopping:hover, .fa-rotate:hover, .fa-compress:hover, i:hover{
             outline: 0;
             box-shadow: none;
         } */
+        .btn-shop-banner {
+            font-size: 0.7rem;
+          
+            font-weight: 500;
+            cursor: pointer;
+            position: absolute;
+            bottom: 26px;
+        }
         .banner-title {
             color: var(--color-text);
             font-size: 2.125rem;
@@ -1443,6 +1451,14 @@ i.fa-bag-shopping:hover, .fa-rotate:hover, .fa-compress:hover, i:hover{
             position: absolute;
             top: 17%;
             transform: translate(5%, -50%);
+        }
+        .btn-shop-banner {
+            font-size: 0.7rem;
+          
+            font-weight: 500;
+            cursor: pointer;
+            position: absolute;
+            bottom: 26px;
         }
     }
     
