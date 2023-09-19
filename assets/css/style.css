@@ -1412,4 +1412,37 @@ i.fa-bag-shopping:hover, .fa-rotate:hover, .fa-compress:hover, i:hover{
             background-image: black !important;
         }
       }
+    /* ipad air */
+    @media only screen and (max-width: 1000px) and (min-width: 708px) {
+        .banner .carousel-inner {
+            height: 265px;
+        }
+        .banner .banner-title{
+            color: var(--color-text);
+    font-size: 2.125rem;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 0.25rem;
+    font-family: var(--font-primary);
+            
+        }
+        .quantity input#number {
+            text-align: center;
+            border: none;
+            margin: 0px;
+            width: 28px;
+            height: 40px;
+        }
+        .quantity .value-button {
+           
+            width: 27px !important;
+            height: 36px;
+            
+        }
+        .banner .banner-text {
+            position: absolute;
+            top: 17%;
+            transform: translate(5%, -50%);
+        }
+    }
     
