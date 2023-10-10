@@ -8,8 +8,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <link rel="stylesheet" href="./assets/css/style.css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -74,7 +75,7 @@
         </div>
       </div>
     </div>
-    </div>
+
     <nav class="navbar border-top navbar-expand-lg  py-3 bg-light ">
       <div class="container">
         <a class="navbar-brand" href=index.html><img src="./assets/images/infologo 1.png" class="logo me-4" alt=""
@@ -130,10 +131,13 @@
                 <span class="visually-hidden">unread messages</span>
               </span>
             </div>
-            <div class="icon-size position-relative">
+            <div class="icon-size position-relative tray">
+              <div class="">
+
+              </div>
               <iconify-icon icon="teenyicons:cart-outline" class=""></iconify-icon>
-              <span class=" top-0 position-absolute start-85 translate-middle badge rounded-pill bg-danger">
-                0
+              <span class="count top-0 position-absolute start-85 translate-middle badge rounded-pill bg-danger">
+
                 <span class="visually-hidden">unread messages</span>
               </span>
             </div>
@@ -329,27 +333,85 @@
           <div class="pt-4 sold">
             <span class="text-muted"> Available: 80 - Sold:</span><span class="red">54</span>
           </div>
-          <div class="stock">
 
-
-            <a href="#" class="btn my-3 text-success">Stock</a>
-          </div>
 
           <div class="quantity row col-md-12">
 
             <div class="col-md-4 mt-2">
-              <form>
-                <div>
-                  <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
-                  <input type="number" id="number" value="0" />
-                  <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
-                </div>
-              </form>
+
+              <div class="stock">
+
+
+                <a href="#" class="btn text-success">Stock</a>
+              </div>
+
             </div>
-            <div class="col-md-8 mt-2">
-              <a href="#" class="btn  btn-cart">Stock</a>
+            <div class="col-md-8 mt-2 items">
+              <a href="#" class="btn cd-add-to-cart js-cd-add-to-cart btn-cart" data-price="25.99">Add to cart</a>
             </div>
           </div>
+
+
+
+
+          <div class="cd-cart cd-cart--empty js-cd-cart">
+            <a href=cart.html class="cd-cart__trigger text-replace">
+
+              <ul class="cd-cart__count"> <!-- cart items count -->
+                <li>0</li>
+                <li>0</li>
+              </ul> <!-- .cd-cart__count -->
+            </a>
+
+            <div class="cd-cart__content">
+              <div class="cd-cart__layout">
+                <header class="cd-cart__header">
+                  <a href=cart.html>Cart</h2>
+                    <span class="cd-cart__undo">Item removed. <a href="#0">Undo</a></span>
+                </header>
+
+                <div class="cd-cart__body">
+                  <ul>
+                    <!-- products added to the cart will be inserted here using JavaScript -->
+                  </ul>
+                </div>
+
+                <footer class="cd-cart__footer">
+                  <a href="#0" class="cd-cart__checkout">
+                    <em>Checkout - $<span>0</span>
+                      <svg class="icon icon--sm" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor">
+                          <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="3" y1="12" x2="21"
+                            y2="12" />
+                          <polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            points="15,6 21,12 15,18 " />
+                        </g>
+                      </svg>
+                    </em>
+                  </a>
+                </footer>
+              </div>
+            </div> <!-- .cd-cart__content -->
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
           <div class="row py-3 border-bottom  add-whislist">
 
@@ -931,14 +993,16 @@
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
 
-    <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/Util.js"></script>
   <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-  <script>  $(".navbar-toggler").on("click", function() {
-    $(".navbar-collapse").toggle();
-    
-});</script>
+  <script>  $(".navbar-toggler").on("click", function () {
+      $(".navbar-collapse").toggle();
+
+    });</script>
   <script>
-     
+
     function increaseValue() {
       var value = parseInt(document.getElementById('number').value, 10);
       value = isNaN(value) ? 0 : value;
