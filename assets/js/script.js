@@ -128,6 +128,7 @@ function addCart() {
     alert("Product Already added in Cart");
     return;
   } else {
+    alert("added to cart")
     itemList.push(newProduct);
   }
 
