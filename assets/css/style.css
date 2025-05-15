@@ -464,7 +464,7 @@ button.btn.btn-primary.user-btn {
 }
 
 .property-card {
-	border: 1px solid #e6e6e6;
+	border: 1px solid #E9E9E9;
 	border-radius: 15px;
 	overflow: hidden;
 	background-color: #fff;
@@ -827,15 +827,15 @@ header a.dropdown-item {
 }
 
 .service-card h5 {
-	font-family: Roboto;
-	font-weight: 500;
-	font-size: 24px;
-	line-height: 100%;
-	letter-spacing: 0%;
-	text-align: center;
-	vertical-align: middle;
-	color: #000;
-	margin-bottom: 12px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #000;
+    margin: 21px 12px 12px;
 }
 
 .service-card p {
@@ -1040,6 +1040,10 @@ footer button.btn.btn-warning.rounded-pill.px-4 {
 	color: #fff;
 }
 
+.property-details p img {
+    width: 16px;
+    height: 16px;
+}
 /* Responsive */
 
 @media screen and (max-width: 1600px) {}
@@ -1108,6 +1112,100 @@ footer button.btn.btn-warning.rounded-pill.px-4 {
        
         font-size: 16px;
     }
+    .property-details p.text-muted.mb-1.small {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .property-details p img {
+        width: 14px;
+        height: 14px;
+    }
+    .property-meta span {
+        font-size: 14px;
+    }
+    .property-meta span img {
+        font-size: 14px;
+    }
+    .overlay-heading h6 {
+        font-size: 14px;
+    }
+    .overlay-heading  .small, small {
+        font-size: 12px;
+    }
+    .sub-heading {
+        font-size: 16px;
+        line-height: 30.3px;
+    }
+    .service-card h5 {
+        font-size: 21px;
+        margin: 21px 12px 12px;
+    }
+    .service-card p {
+        font-size: 14px;
+        line-height: 28.5px;
+        vertical-align: middle;
+        color: #1A1A1A;
+    }
+    .service-card a.btn.btn-outline-danger.rounded-pill.mt-2 {
+        font-size: 14px;
+    }
+    .icon-list-wrap h6 {
+        font-size: 18px;
+        margin: 10px 0px 14px;
+    }
+    .icon-list-wrap p {
+        font-size: 14px;
+        line-height: 26.5px;
+    }
+    .latest-news p {
+        font-size: 12px;
+        line-height: 28.5px;
+        margin-bottom: 8px;
+    }
+    .latest-news h6 {
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .latest-news a {
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .agent-card h6.fw-bold.mb-0 {
+      
+        font-size: 18px;
+        margin: 14px 0px;
+    }
+    .agent-card p.text-muted.small {
+      
+        font-size: 14px;
+    }
+    footer p.small {
+        font-size: 14px;
+    }
+    footer ul.list-unstyled.small li {
+     
+        font-size: 14px;
+        line-height: 28.5px;
+    }
+    footer .border-top {
+        border-top: 1px solid #9D1216 !important;
+        padding: 24px 0px;
+        margin-top: 24px;
+    }
+    .form-control {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    footer button.btn.btn-warning.rounded-pill.px-4 {
+      
+        font-weight: 500;
+        font-size: 14px;
+    }
+    footer h6.fw-bold.mb-3 {
+       
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 1200px) {}
@@ -1123,6 +1221,7 @@ footer button.btn.btn-warning.rounded-pill.px-4 {
 		height: auto;
 	}
 
+    
 	.slider .carousel-inner .carousel-item .carousel-caption {
 		position: static;
 		transform: none;
