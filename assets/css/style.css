@@ -1044,6 +1044,20 @@ footer button.btn.btn-warning.rounded-pill.px-4 {
     width: 16px;
     height: 16px;
 }
+footer .form-control:focus {
+    color: #fff;
+    background-color: var(--bs-body-bg);
+    border-color: none !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+.slider .form-control:focus {
+    
+    background-color: var(--bs-body-bg);
+    border-color: none !important;
+    outline: 0;
+    box-shadow: none !important;
+}
 /* Responsive */
 
 @media screen and (max-width: 1600px) {}
@@ -1205,6 +1219,9 @@ footer button.btn.btn-warning.rounded-pill.px-4 {
     footer h6.fw-bold.mb-3 {
        
         font-size: 16px;
+    }
+    footer .sub-footer p {
+        font-size: 14px;
     }
 }
 
