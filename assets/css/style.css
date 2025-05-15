@@ -1208,7 +1208,64 @@ footer button.btn.btn-warning.rounded-pill.px-4 {
     }
 }
 
-@media screen and (max-width: 1200px) {}
+
+    @media (max-width: 1200px) {
+        .slick-slider, 
+        .slick-slider .slick-track, 
+        .slick-slider .slick-slide, 
+        .slick-slider .slide {
+          height: 300px !important; /* or whatever height you want */
+          max-height: 300px !important;
+        }
+      
+        .slick-slider .slick-slide img {
+          height: 100% !important;
+          width: 100%;
+          object-fit: cover;
+        }
+        .slick-dots {
+            position: absolute;
+            bottom: -90px;
+        }
+
+        button.btn.home-btn {
+        
+            gap: 6px;
+        }
+      
+    span.heading {
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+    .slider .carousel-inner .carousel-item .carousel-caption p.text-center {
+       
+        font-size: 12px;
+        line-height: 24px;
+    }
+    header a.nav-link {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        margin-right: 0px;
+    }
+    .banner-search-bg {
+       
+        padding: 8px;
+        gap: 22px;
+    }
+    .img-icon img{
+width: 18px;
+height: 18px;
+    }
+    .user-btn img{
+        width: 18px;
+        height: 18px;
+            }
+            .slick-row {
+                padding-bottom: 32px;
+            }
+}
 
 @media screen and (max-width: 992px) {
 	.slider {
@@ -1257,6 +1314,95 @@ footer button.btn.btn-warning.rounded-pill.px-4 {
 }
 
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    section {
+        margin: 0px 0px 32px;
+    }
+    .banner-search-bg {
+        gap: 12px;
+    }
+    .search-wrap.col {
+        flex: 1 0 48%;
+    }
+    span.heading {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+    .mobile-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: start !important;
+    }
+    section h2 {
+        font-size: 28px;
+        text-align: start;
+    }
+    .sub-heading {
+        font-size: 14px;
+        line-height: 18.3px;
+    }
+    a.view.text-decoration-none.fw-semibold {
+       
+        font-size: 14px;
+        text-align: start;
+        width: 100%;
+    }
+    button.btn.btn-outline-secondary.btn-filter.me-2,
+    .card-wrap button.btn.btn-danger.text-white.btn-filter.me-2 {
+        font-size: 12px;
+        margin: 0px 0px 12px;
+    }
+    .slick-initialized .slick-slide {
+        display: block;
+        width: 221px !important;
+    }
+    .icon-list-wrap .col-1 {
+        flex: 0 0 auto;
+        width: 100%;
+        padding: 7px;
+    }
+    .mobile-heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 100%;
+        gap: 5px;
+        text-align: start !important;
+    }
+    footer .row.gy-4.pt-4 {
+        display: flex;
+        flex-direction: column;
+    }
+    footer .col-4,
+    footer .col-2
+     {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    .banner-search-bg {
+        gap: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+    .slick-slider, 
+        .slick-slider .slick-track, 
+        .slick-slider .slick-slide, 
+        .slick-slider .slide {
+          height: 320px !important; /* or whatever height you want */
+          max-height: 320px !important;
+        }
+      
+        .slick-slider .slick-slide img {
+          height: 100% !important;
+          width: 100%;
+          object-fit: cover;
+        }
+        .slick-dots {
+            position: absolute;
+            bottom: -22px;
+        }
+
+}
